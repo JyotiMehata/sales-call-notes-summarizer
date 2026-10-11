@@ -1,6 +1,8 @@
 import re
 import nltk
 
+nltk.download("punkt", quiet=True)
+nltk.download("punkt_tab", quiet=True)
 
 def clean_text(text):
     """
